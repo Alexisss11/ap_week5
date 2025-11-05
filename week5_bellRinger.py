@@ -4,26 +4,40 @@
 # a. Retrieve the 5th character.
 # b. Retrieve the second to last character.
 # c. Find the first occurrence of the letter 'c'.
+magic = "abracadabra"
+print(magic[4])
+print(magic[9])
+print(magic[4])
 
 # Advanced Slicing:
-# Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+# Given the string 
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 # a. Extract the letters 'hij'.
+print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
+every_second_letter = alphabet[0:13:2]
+print(every_second_letter)
 # c. Reverse the entire string using slicing.
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
-
+quote = "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+name_jfk = quote[83:98]
+print(name_jfk)
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
+info = "Python is fun. Fun is good. Good is subjective."
 # a. Extract the word 'subjective' without knowing its exact position.
+
 # b. Extract every third word.
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
 
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
+uppercase_statement = "MAY THE FORCE BE WITH YOU."
+print("Lowercase:", uppercase_statement.lower())
 
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
